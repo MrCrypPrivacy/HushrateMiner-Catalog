@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "repositoryName": "hushrate-modules",
+  "generatedAt": "2026-10-20T07:05:43Z",
+  "packages": [
+    {
+      "name": "hushrate_core",
+      "versions": [
+        {
+          "releasedAt": "2026-10-20T06:23:02Z",
+          "publisherRef": "hushrate_core-v0.9.1",
+          "url": "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.1b/hushrate-core-0.9.1b.lgx",
+          "size": 4360247,
+          "sha256": "979014ceed56e5e9e5cbd96ffef87ffe3ebe58a62086a851ca95d25f4a061730",
+          "rootHash": "fc73f0297407e6038369a4bfa154c3ec2b20afa2ba2089d237cf5f19086076fd",
+          "manifest": {
+            "author": "",
+            "category": "example",
+            "dependencies": [],
+            "description": "Hushrate Miner core: downloads and verifies XMRig and P2Pool and runs them",
+            "display_name": "Hushrate Core",
+            "hashes": {
+              "assets": "a4e8e31526af209388d4c903a27b8001c64f305e3e1ec803ea5b5db1768ebfe9",
+              "root": "fc73f0297407e6038369a4bfa154c3ec2b20afa2ba2089d237cf5f19086076fd",
+              "variants": "2754915aab176d194b0c92c2501bb12bce09f60ff6a9e70612195417c835fc33",
+              "variants/linux-amd64": "a3705607d9216a050ccd43dc273128215bc6dab4484f39ecb6762944dc800fe8"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "hushrate_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "hushrate_core",
+            "type": "core",
+            "version": "0.9.1"
+          },
+          "urls": [
+            "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.1b/hushrate-core-0.9.1b.lgx"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hushrate_miner",
+      "versions": [
+        {
+          "releasedAt": "2026-10-20T06:23:02Z",
+          "publisherRef": "hushrate_miner-v0.9.1",
+          "url": "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.1b/hushrate-miner-ui-0.9.1b.lgx",
+          "size": 70652,
+          "sha256": "650324a26940dfb66b5ec3d9ecffed952ce48b9ddf0c01325539ea79c7943283",
+          "rootHash": "574ebf052853468a223e6f4ac74eb05bc31c3a01f85a5279f4958969a2545268",
+          "manifest": {
+            "author": "",
+            "category": "tools",
+            "dependencies": [
+              "hushrate_core"
+            ],
+            "description": "Hushrate Miner: solo Monero mining with P2Pool + XMRig",
+            "display_name": "HushRate Miner",
+            "hashes": {
+              "assets": "b727b0159c17c916a5a32ef296f96d529c1b6b5a30d5266f1e7f64e12ff934ed",
+              "root": "574ebf052853468a223e6f4ac74eb05bc31c3a01f85a5279f4958969a2545268",
+              "variants": "5aab3358c27ac6411317b11d740ee975d6714911e9679d2431cfff3f24e3c8cf",
+              "variants/linux-amd64": "8393f19ff21bd29eecf7d785ace38cef363e66a4a12d13ad4ff2c4946b133f6d"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "hushrate_miner",
+            "type": "ui_qml",
+            "version": "0.9.1",
+            "view": "Main.qml"
+          },
+          "icon": {
+            "path": "icons/7e448bbd57a01c2c16055ec430e5f36b80db642a4fbce5a20a11da2a2affbcb3.png",
+            "sha256": "7e448bbd57a01c2c16055ec430e5f36b80db642a4fbce5a20a11da2a2affbcb3",
+            "size": 8863
+          },
+          "urls": [
+            "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.1b/hushrate-miner-ui-0.9.1b.lgx"
+          ]
+        }
+      ]
+    }
+  ]
+}

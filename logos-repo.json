@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "name": "hushrate-modules",
+  "displayName": "Hushrate Miner",
+  "description": "Hushrate Miner for Logos Basecamp: solo Monero mining with P2Pool and XMRig.",
+  "homepage": "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp",
+  "indexUrl": "https://raw.githubusercontent.com/MrCrypPrivacy/HushrateMiner-Catalog/refs/heads/main/index.json",
+  "trustedSigners": []
+}

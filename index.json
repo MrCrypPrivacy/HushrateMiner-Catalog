@@ -1,11 +1,45 @@
 {
   "schemaVersion": 2,
   "repositoryName": "hushrate-modules",
-  "generatedAt": "2026-10-21T12:18:16Z",
+  "generatedAt": "2026-10-22T06:58:57Z",
   "packages": [
     {
       "name": "hushrate_core",
       "versions": [
+        {
+          "releasedAt": "2026-10-22T06:57:06Z",
+          "publisherRef": "hushrate_core-v0.9.3",
+          "url": "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.3b/hushrate-core-0.9.3b.lgx",
+          "size": 8108122,
+          "sha256": "9e31787e91e63cddec5a87bf76e01a63454ee7a32947c2109f7869b1185051eb",
+          "rootHash": "da8c014df17b7f7bb3862c6b6b63ca4e3b57f7db50b994e15b04785a0a58d1ea",
+          "manifest": {
+            "author": "",
+            "category": "tools",
+            "dependencies": [],
+            "description": "Hushrate Miner core: downloads and verifies XMRig and P2Pool and runs them",
+            "display_name": "Hushrate Core",
+            "hashes": {
+              "assets": "c7c1e23219d5b1ebd7a4b5c52bf518eb4f9b43c9e9cc1ae536af349fd8b1b026",
+              "root": "da8c014df17b7f7bb3862c6b6b63ca4e3b57f7db50b994e15b04785a0a58d1ea",
+              "variants": "b2982e0be0faf35475c5e6404fdfedb671736efc804eaf8da5ac1230d9f1a5ae",
+              "variants/darwin-arm64": "5ac633979b4b40657e927dc206bb9e34b7bc0bc453966b98f673cedca1d0c358",
+              "variants/linux-amd64": "e3f51f3ac73073658d8f58e33596188b5222f85caa22f640c186f51f5e8e44c8"
+            },
+            "icon": "",
+            "main": {
+              "darwin-arm64": "hushrate_core_plugin.dylib",
+              "linux-amd64": "hushrate_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "hushrate_core",
+            "type": "core",
+            "version": "0.9.3"
+          },
+          "urls": [
+            "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.3b/hushrate-core-0.9.3b.lgx"
+          ]
+        },
         {
           "releasedAt": "2026-10-21T12:18:16Z",
           "publisherRef": "hushrate_core-v0.9.2",
@@ -77,6 +111,45 @@
     {
       "name": "hushrate_miner",
       "versions": [
+        {
+          "releasedAt": "2026-10-22T06:57:06Z",
+          "publisherRef": "hushrate_miner-v0.9.3",
+          "url": "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.3b/hushrate-miner-ui-0.9.3b.lgx",
+          "size": 130170,
+          "sha256": "1c5a5492bb57ee7be39d8cecb1aad660a7772bf9ebd7066ab23b402b792bfb25",
+          "rootHash": "3f3d0241ebed2fe818b56474d63fc6af8f56c2bf14d9b7d5d7a1165f9fe994c7",
+          "manifest": {
+            "author": "",
+            "category": "tools",
+            "dependencies": [
+              "hushrate_core"
+            ],
+            "description": "Hushrate Miner: solo Monero mining with P2Pool + XMRig",
+            "display_name": "HushRate Miner",
+            "hashes": {
+              "assets": "c64db44a7a94483005e56cd0d28a284141d6cceb2c8b87fa23b6258d7c9a7752",
+              "root": "3f3d0241ebed2fe818b56474d63fc6af8f56c2bf14d9b7d5d7a1165f9fe994c7",
+              "variants": "44602b8567761f7c04f54e8f36cf9dc894c2a444e8ce61af43aa081d186af8ec",
+              "variants/darwin-arm64": "73914563f58d12a313e9368b77f2b7fa9ea41ebcce3abf1157f55709bc5c72ef",
+              "variants/linux-amd64": "73914563f58d12a313e9368b77f2b7fa9ea41ebcce3abf1157f55709bc5c72ef"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "hushrate_miner",
+            "type": "ui_qml",
+            "version": "0.9.3",
+            "view": "Main.qml"
+          },
+          "icon": {
+            "path": "icons/7e448bbd57a01c2c16055ec430e5f36b80db642a4fbce5a20a11da2a2affbcb3.png",
+            "sha256": "7e448bbd57a01c2c16055ec430e5f36b80db642a4fbce5a20a11da2a2affbcb3",
+            "size": 8863
+          },
+          "urls": [
+            "https://github.com/MrCrypPrivacy/HushrateMiner-x-Logos-Basecamp/releases/download/v0.9.3b/hushrate-miner-ui-0.9.3b.lgx"
+          ]
+        },
         {
           "releasedAt": "2026-10-21T12:18:16Z",
           "publisherRef": "hushrate_miner-v0.9.2",
